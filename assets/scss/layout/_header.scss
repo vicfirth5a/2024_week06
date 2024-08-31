@@ -1,4 +1,42 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.nav-item {
+  padding: 8px 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid $neutral-200;
+  border-radius: 100px;
+  //   padding: 5px 10px;
+  width: 276px;
+  //   background-color: #f8f8f8;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: $neutral-300;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.search-button svg {
+  fill: #3fa476; /* 改變圖標的顏色 */
+  width: 20px;
+  height: 20px;
+}
+
+.search-button:focus {
+  outline: none;
 }
