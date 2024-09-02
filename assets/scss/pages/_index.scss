@@ -1,11 +1,25 @@
-.index-title {
-  font-size: 100px;
+.section {
+  padding: 80px 0;
 }
 .section-hero .container {
   height: 621px;
-  background-image: url(../../images/banner.png);
+  background-image: url(../images/banner.png);
+}
+
+.section-hero .main-content {
+  top: 50%;
+  left: 61px;
 }
 
 .section-topics .topic {
-  width: 25%;
+  border-radius: 20px 0 20px 0;
+  overflow: hidden;
+  position: relative;
+  .txt {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    font-weight: 900;
+  }
 }
