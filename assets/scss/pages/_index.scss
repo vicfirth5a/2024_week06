@@ -107,6 +107,7 @@
     font-size: 52px;
     font-weight: 900;
     color: $primary-400;
+    margin-bottom: 36px;
   }
   img {
     border-radius: 4px;
@@ -141,6 +142,33 @@
         margin: 0 20px;
         background-color: #6c757d;
       }
+    }
+  }
+}
+.section-recommend {
+  font-family: "Noto Serif TC", system-ui;
+  .recommend-item {
+    position: relative;
+    .label {
+      background-color: #fff;
+      border: 1px solid $accent-100;
+      border-radius: 4px;
+      position: absolute;
+      top: 0;
+      left: 16px;
+      transform: translateY(-50%);
+      margin: 0 12px;
+    }
+    .heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 12px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0 12px;
     }
   }
 }
