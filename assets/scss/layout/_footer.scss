@@ -1,4 +1,19 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.footer {
+  font-family: "Noto Serif TC", system-ui;
+  .container {
+    display: flex;
+    h2 {
+      margin-right: auto;
+    }
+    .txt {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+    }
+  }
+}
+.copyright {
+  .container {
+    border-top: 1px solid #000;
+  }
 }
